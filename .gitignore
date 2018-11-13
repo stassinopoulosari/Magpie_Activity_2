@@ -1,0 +1,4 @@
+*.ctxt
+*.class
+*_new.java
+.DS_Store
