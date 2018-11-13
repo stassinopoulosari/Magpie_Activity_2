@@ -1,12 +1,5 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Magpie Activity 2
+PURPOSE OF PROJECT: To demonstrate basic keyword searching with a chatbot.
+VERSION or DATE: 12 November 2018
+HOW TO START THIS PROJECT: Open BlueJ. Right-click on `MagpieRunner2` and click `void main(String[] args)`
+AUTHORS: Ari Stassinopoulos, Project Lead The Way
