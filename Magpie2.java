@@ -38,12 +38,15 @@ public class Magpie2
         else if (statement.indexOf("mother") >= 0
                 || statement.indexOf("father") >= 0
                 || statement.indexOf("sister") >= 0
-                || statement.indexOf("brother") >= 0)
+                || statement.indexOf("brother") >= 0
+                || statement.indexOf("aunt") >= 0
+                || statement.indexOf("uncle") >= 0)
         {
             response = "Tell me more about your family.";
         }
         else if (statement.indexOf("dog") >= 0
-                || statement.indexOf("cat") >= 0)
+                || statement.indexOf("cat") >= 0
+                || statement.indexOf("bird") >= 0)
         {
             response = "Tell me more about your pets.";
         }
@@ -53,7 +56,7 @@ public class Magpie2
         } 
         else if (statement.trim().length() == 0) {
             response = "Say something, please.";
-        }
+        } else 
         {
             response = getRandomResponse();
         }
