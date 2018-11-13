@@ -31,26 +31,26 @@ public class Magpie2
     public String getResponse(String statement)
     {
         String response = "";
-        if (statement.indexOf("no") >= 0)
+        if (findKeyword(statement, "no") >= 0)
         {
             response = "Why so negative?";
         }
-        else if (statement.indexOf("mother") >= 0
-                || statement.indexOf("father") >= 0
-                || statement.indexOf("sister") >= 0
-                || statement.indexOf("brother") >= 0
-                || statement.indexOf("aunt") >= 0
-                || statement.indexOf("uncle") >= 0)
+        else if (findKeyword(statement, "mother") >= 0
+                || findKeyword(statement, "father") >= 0
+                || findKeyword(statement, "sister") >= 0
+                || findKeyword(statement, "brother") >= 0
+                || findKeyword(statement, "aunt") >= 0
+                || findKeyword(statement, "uncle") >= 0)
         {
             response = "Tell me more about your family.";
         }
-        else if (statement.indexOf("dog") >= 0
-                || statement.indexOf("cat") >= 0
-                || statement.indexOf("bird") >= 0)
+        else if (findKeyword(statement, "dog") >= 0
+                || findKeyword(statement, "cat") >= 0
+                || findKeyword(statement, "bird") >= 0)
         {
             response = "Tell me more about your pets.";
         }
-        else if (statement.indexOf("kaehms") >= 0)
+        else if (findKeyword(statement, "kaehms") >= 0)
         {
             response = "He sounds like a good teacher.";
         } 
